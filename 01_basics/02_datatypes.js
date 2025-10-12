@@ -14,7 +14,7 @@ let age = 18
 let isLoggedIn = false
 let state;
 
-// number => 2 to power 53
+// number => 2 to power 53 tak ka range hota ha
 // bigint
 // string => ""
 // boolean => true/false
@@ -25,5 +25,5 @@ let state;
 
 // object
 
-console.log(typeof undefined); // undefined
+console.log(typeof "undefined") // undefined
 console.log(typeof null); // object
