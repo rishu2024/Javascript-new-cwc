@@ -24,11 +24,37 @@
 // "abhinav" => true; 
 
 
-let someNumber = 33
+// let someNumber = 33
 
-let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// let stringNumber = String(someNumber)
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+// ****************operations*************
+
+// let Value = 3;
+// let negvalue = -Value;
+// console.log(negvalue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+let str1 = "hello"
+let str2 = "abhinav"
+let str3 = str1 + str2;
+console.log(str3);
+
+
+
+
+
+
+
 
 
 
