@@ -55,7 +55,7 @@ const myFunction = function(){
   console.log("hello world");
 }
 
-console.log(typeof function);
+console.log(typeof heros);
 // function return function  which is called object function
 // every non premative data return type is only object and only in function non premative return function object
 
