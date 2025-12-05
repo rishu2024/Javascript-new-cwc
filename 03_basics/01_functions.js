@@ -1,0 +1,82 @@
+function sayMyName(){
+console.log("a");
+console.log("b");
+console.log("h");
+console.log("i");
+console.log("n");
+console.log("a");
+console.log("v"); 
+}
+// collection of code jiska hum ek package bna de usko hi function bolte ha
+
+// sayMyName()
+function addTwoNumbers(number1,number2){
+    return number1 + number2
+//    console.log( number1 + number2);
+// let result = number1 + number2
+// console.log("abhinav");
+
+return result
+console.log();
+}
+// ek baar hum function me return kar diye uske baad koi kaam nahi krege function
+addTwoNumbers()
+addTwoNumbers(3,4)
+// yeha pe number1 , number2 parameter ha aur 3,4 arguments ha
+
+const result = addTwoNumbers(3,5)
+// console.log("result:",result);
+
+function loginUserMessage(username = "abhi"){
+    if (username=== undefined) 
+        // (!username)
+        {
+        console.log("please enter a username");
+        return
+    }
+    return `${username} just logged in `
+}
+console.log(
+loginUserMessage("abhinav"));
+console.log(
+loginUserMessage("abhinav"));
+
+// function calculateCardPrice(val1 , val2 , ...num1){
+//     return num1
+// }
+function calculateCardPrice(...num1){
+    return num1
+}
+// ...num1 is also a rest operator
+// console.log(calculateCardPrice(2));
+// console.log(calculateCardPrice(200,400,500));
+
+const user = {
+    username: "abhinav",
+    price: 199
+}
+
+function handleOfObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);   
+}
+// console.log(user);
+// handleOfObject(user)
+handleOfObject({
+    username: "abhi",
+    price: 399
+})
+
+const myNewArray = [200,400,100,600]
+
+function returnSecondValue(getArray){
+    return getArray[3]
+}
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200,400,500,1000]));
+
+
+
+
+
+
+
